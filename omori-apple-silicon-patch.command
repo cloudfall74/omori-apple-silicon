@@ -44,7 +44,7 @@ echo "Extracting steamworks.."
 unzip -qq steam.zip
 
 echo "Patching game.."
-mv ./nwjs-v0.77.0-osx-arm64/nwjs.app ./OMORI.app
+mv ./nwjs-v0.45.0-osx-x64/nwjs.app ./OMORI.app
 mv -f ./OMORI.original.app/Contents/Resources/app.nw ./OMORI.app/Contents/Resources/
 mv -f ./OMORI.original.app/Contents/Resources/app.icns ./OMORI.app/Contents/Resources/
 mv -f ./node-polyfill-patch.js ./OMORI.app/Contents/Resources/app.nw/js/libs/
